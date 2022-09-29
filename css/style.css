@@ -57,6 +57,7 @@
     margin-bottom: 10px;
     text-align: center;
     margin-bottom: 30px;
+    font-family: "Russo";
   }
 
   .heroText h2 {
@@ -87,7 +88,6 @@
 
   .heroText a {
     display: block;
-    width: 200px;
     margin: auto;
   }
 

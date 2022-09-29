@@ -3,6 +3,15 @@
 <--- -------------------------- -*/
 
 @media screen and (min-width: 0px) {
+  @font-face {
+    font-family: "Russo";
+    src: url("/fonts/RussoOne-Regular.ttf") format("woff2"),
+      url("/fonts/RussoOne-Regular.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
   section {
     padding: 50px 10px;
   }
@@ -37,7 +46,7 @@
   }
 
   :root {
-    --primary: #3660ab;
+    --primary: #e30126;
   }
 
   body,
@@ -106,20 +115,33 @@
   /* Buttons */
   .button-solid {
     color: #fff;
-    display: block;
+    display: inline-block;
     margin: auto;
     text-align: center;
     text-decoration: none;
     background: var(--primary);
     line-height: 50px;
-    width: 250px;
-    border-radius: 3px;
+    width: auto;
     font-size: 18px;
+    padding: 0 44px;
     font-family: "Roboto", sans-serif;
     -webkit-transition: 0.2s ease;
     -o-transition: 0.2s ease;
     transition: 0.2s ease;
     display: inline-block;
+    position: relative;
+  }
+
+  .button-solid:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: -6px;
+    bottom: -6px;
+    left: -6px;
+    right: -6px;
+    border: 2px solid var(--primary);
+    pointer-events: none;
   }
 
   .button-solid:hover {
