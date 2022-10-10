@@ -524,3 +524,122 @@
     display: none;
   }
 }
+
+/*-- -------------------------- -->
+<---          Qualities         -->
+<--- -------------------------- -*/
+@media only screen and (min-width: 0em) {
+  #quality .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  #quality .content {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  #quality .signature {
+    font-size: 1.2em;
+    line-height: 1.20833333em;
+    font-weight: 700;
+    margin-bottom: 0.83333333em;
+    display: block;
+    text-align: center;
+  }
+  #quality .title {
+    font-size: 0.9em;
+    line-height: 1.22222222em;
+    font-weight: 800;
+    display: block;
+    text-align: center;
+  }
+  #quality img {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    display: block;
+    margin: auto;
+    margin-bottom: 2.5em;
+  }
+}
+@media only screen and (min-width: 568px) {
+  #quality img {
+    max-width: 15em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 64em) {
+  #quality {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5em;
+  }
+  #quality .container {
+    width: 100%;
+    max-width: 54.7em;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  #quality .content {
+    width: 25.15em;
+    text-align: left;
+    margin-left: auto;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 0;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  #quality .content p {
+    font-size: 0.8em;
+    line-height: 1.1875em;
+    width: 32.8125em;
+  }
+  #quality h2 {
+    margin-bottom: 1.11111111em;
+  }
+  #quality .signature {
+    text-align: left;
+  }
+  #quality .title {
+    text-align: left;
+  }
+  #quality img {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    max-width: 26.25em;
+    width: 40vw;
+    height: 50%;
+    margin: 0;
+    max-height: 34.55em;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  #quality img {
+    position: relative;
+    z-index: 100;
+    -webkit-transform: translateY(4.5em);
+    -ms-transform: translateY(4.5em);
+    transform: translateY(4.5em);
+  }
+}
