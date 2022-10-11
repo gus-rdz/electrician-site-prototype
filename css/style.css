@@ -526,6 +526,203 @@
 }
 
 /*-- -------------------------- -->
+<---           About            -->
+<--- -------------------------- -*/
+@media only screen and (min-width: 0em) {
+  #about {
+    position: relative;
+    padding-top: 11em;
+    text-align: center;
+  }
+  #about:after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 20em;
+    width: 5em;
+    background: #fff;
+    opacity: 1;
+    top: -22.5em;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+  #about .lights {
+    position: absolute;
+    top: -13em;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 7.5em;
+    z-index: -1;
+  }
+  #about .lights img {
+    display: block;
+    width: 100%;
+  }
+  #about .lights img.desktop {
+    display: none;
+  }
+  #about .button-solid {
+    margin-top: 50px;
+  }
+  body.dark-mode #about .lights #desk2 {
+    display: none;
+  }
+  .standard {
+    text-align: center;
+  }
+  .standard .sub {
+    color: var(--primary);
+    font-size: 20px;
+    line-height: 1.45em;
+    font-family: "BarlowBold";
+    display: block;
+    margin-bottom: 0.85em;
+  }
+  .standard .aria-tag {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    opacity: 0;
+    z-index: -100;
+  }
+  .standard h2 {
+    font-size: 1.6em;
+    line-height: 1.25em;
+    margin-bottom: 1.34375em;
+  }
+  .standard p {
+    margin-bottom: 1.25em;
+  }
+}
+@media only screen and (min-width: 568px) {
+  .standard {
+    max-width: 28.4em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 48em) {
+  #about .lights {
+    width: 15em;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    margin-left: -7.25em;
+    top: -25em;
+  }
+  #about .lights img.mobile {
+    display: none;
+  }
+  #about .lights img.desktop {
+    display: block;
+    width: 15em;
+    height: 42.05em;
+  }
+  #about .lights img.desktop {
+    display: block;
+  }
+  #about .lights img#desk2 {
+    width: 30em;
+    height: 53.5em;
+    display: none;
+  }
+  #about .content {
+    padding-top: 12.5em;
+  }
+  #about .content h2 {
+    width: 15.625em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body.dark-mode #about .lights #mobile-dark {
+    display: none;
+  }
+  body.dark-mode #about .lights #desk2 {
+    display: Block;
+  }
+}
+@media only screen and (min-width: 64em) {
+  #about {
+    max-width: 60em;
+    padding-top: 170px;
+    position: relative;
+  }
+  #about .lights {
+    z-index: 106;
+    width: 20.65em;
+    margin-left: -25em;
+    top: -23.25em;
+  }
+  #about .lights img.desktop {
+    width: 20.65em;
+    height: 57.85em;
+  }
+  #about .lights img#desk2 {
+    width: 40.6em;
+    height: 72.4em;
+  }
+  #about .content {
+    width: 25em;
+    text-align: left;
+    margin-left: auto;
+    margin-right: 0;
+    padding-top: 0;
+  }
+  #about .content p {
+    font-size: 0.8em;
+    line-height: 1.5em;
+  }
+  #about .button-solid {
+    margin-left: 0.33333333em;
+  }
+  .standard .sub {
+    font-size: 1.2em;
+    line-height: 1.16666667em;
+  }
+  .standard h2 {
+    font-size: 1.8em;
+    line-height: 1.19444444em;
+    margin-bottom: 1.19444444em;
+  }
+  .standard p {
+    font-size: 0.8em;
+    line-height: 1.5em;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  #about {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 62em;
+  }
+  #about .lights {
+    width: 28.55em;
+    top: -41.8em;
+    margin-left: -32.15em;
+  }
+  #about .container {
+    padding: 0;
+  }
+  #about .content {
+    margin-right: 4.25em;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  #about .lights img.desktop {
+    width: 28.55em;
+    height: 80em;
+  }
+}
+
+/*-- -------------------------- -->
 <---          Services          -->
 <--- -------------------------- -*/
 @media only screen and (min-width: 0em) {
