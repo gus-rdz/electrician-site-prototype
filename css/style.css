@@ -1112,6 +1112,156 @@
 }
 
 /*-- -------------------------- -->
+<---          Reviews           -->
+<--- -------------------------- -*/
+@media only screen and (min-width: 0em) {
+  #reviews .reviews-box {
+    margin-top: 2.5em;
+  }
+  #reviews .card {
+    -webkit-box-shadow: 0px 0.2em 2.25em 0.2em rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 0.2em 2.25em 0.2em rgba(0, 0, 0, 0.14);
+    width: 95%;
+    margin: auto;
+    margin-bottom: 1.25em;
+    padding: 2.5em 1em;
+  }
+  #reviews .card .name {
+    font-size: 1.2em;
+    line-height: 1.20833333em;
+    font-weight: 700;
+  }
+  #reviews .card .name img {
+    display: block;
+    margin: 0.83333333em auto;
+  }
+}
+@media only screen and (min-width: 568px) {
+  #reviews .card .card {
+    padding: 2.5em;
+  }
+}
+@media only screen and (min-width: 64em) {
+  #reviews {
+    padding-top: 7.75em;
+    padding-bottom: 5em;
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  #reviews .background {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -55%);
+    -ms-transform: translate(-50%, -55%);
+    transform: translate(-50%, -55%);
+    width: 96em;
+    min-height: 100%;
+    z-index: -10;
+    opacity: 0.02;
+  }
+  #reviews h2 {
+    width: 17.08333333em;
+    font-size: 2.4em;
+    line-height: 1.16666667em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #reviews p {
+    width: 38.125em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #reviews .reviews-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-width: 62em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #reviews .card {
+    width: 47%;
+    max-width: 25.25em;
+    margin: 0.5em;
+    padding: 2.7em 2.9em 2.1em 2.9em;
+    background: #fff;
+  }
+  #reviews .card:nth-of-type(1),
+  #reviews .card:nth-of-type(3) {
+    margin-left: 0;
+  }
+  #reviews .card:nth-of-type(2),
+  #reviews .card:nth-of-type(4) {
+    margin-right: 0;
+  }
+  #reviews .card .name {
+    text-align: left;
+    width: 100%;
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 0.625em;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  #reviews .card .name img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+  }
+  #reviews .card p {
+    width: 100%;
+    max-width: 24.4375em;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  #reviews {
+    padding-top: 12.75em;
+    position: relative;
+  }
+  #reviews .background {
+    display: none !important;
+  }
+  #reviews:after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url("../images/circui-removebg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.02;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  body.dark-mode #reviews:after {
+    opacity: 0.3;
+  }
+}
+
+/*-- -------------------------- -->
 <---          Qualities         -->
 <--- -------------------------- -*/
 @media only screen and (min-width: 0em) {
