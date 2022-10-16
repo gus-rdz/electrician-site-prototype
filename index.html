@@ -2,21 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="canonical" href="" />
+    <link rel="canonical" href="https://www.westsideelectricalnw.com/" />
 
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta
+      name="description"
+      content="At Westside Electrical, we handle everything from home service calls, electrical panel upgrades, new wiring for remodels, outdoor lighting, commercial, and industrial electrical needs. Fully licensed, bonded, and isnured."
+    />
+    <meta name="keywords" content="electrician whidbey island" />
 
     <!--Social Media Display-->
     <meta property="og:title" content="" />
-    <meta property="og:description" content="" />
+    <meta
+      property="og:description"
+      content="At Westside Electrical, we handle everything from home service calls, electrical panel upgrades, new wiring for remodels, outdoor lighting, commercial, and industrial electrical needs. Fully licensed, bonded, and isnured."
+    />
+    <meta name="keywords" content="electrician whidbey island" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:image:secure_url" content="" />
+    <meta property="og:url" content="https://www.westsideelectricalnw.com/" />
+    <meta
+      property="og:image"
+      content="https://www.westsideelectricalnw.com/images/landing-mobile.jpg"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://www.westsideelectricalnw.com/images/landing-mobile.jpg"
+    />
 
     <!--Favicons-->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -32,15 +44,44 @@
     <meta name="theme-color" content="#ffffff" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/core-styles.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/animations.css" />
+    <link rel="stylesheet" href="/css/root.css" />
+    <link rel="stylesheet" href="/css/local.css" />
+    <link rel="stylesheet" href="/css/grid.css" />
     <link rel="stylesheet" href="/css/dark.css" />
+
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="/fonts/RussoOne-Regular.ttf"
+      crossorigin
+    />
+    <link rel="preload" as="image" href="/images/landing-mobile.jpg" />
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "G-28VKPM9WYH"]);
+      _gaq.push(["_trackPageview"]);
+
+      (function () {
+        var ga = document.createElement("script");
+        ga.type = "text/javascript";
+        ga.async = true;
+        ga.src =
+          ("https:" == document.location.protocol
+            ? "https://ssl"
+            : "http://www") + ".google-analytics.com/ga.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
 
     <title>
       Residential Electrician Contractors | Mendez Electric | RGV, TX
     </title>
   </head>
-  <body>
+  <body class="dark-mode">
     <a href="index.html#main" aria-label="skip to main content" class="skip"
       >Click To Skip To Main</a
     >
@@ -78,56 +119,34 @@
             height="60"
           />
 
+      <!-- ============================================ -->
+        <!--                   NAVIGATION                 -->
+        <!-- ============================================ -->
+
+        <nav>
           <!-- Hamburger Menu -->
-          <button
-            aria-label="open the menu"
-            id="menu-button"
-            class="hamburger hamburger--spring"
-            onclick="toggleNav()"
-            type="button"
-          >
-            <span aria-hidden="true" class="hamburger-box">
-              <span aria-hidden="true" class="hamburger-inner"></span>
-            </span>
+          <button aria-label="open the menu" id="menu-button" class="hamburger hamburger--spring" onclick="toggleNav()" type="button">
+              <span aria-hidden="true" class="hamburger-box">
+                  <span aria-hidden="true" class="hamburger-inner"></span>
+              </span>
           </button>
-        </div>
-      </div>
-
-      <!-- ============================================ -->
-      <!--                   NAVIGATION                 -->
-      <!-- ============================================ -->
-
-      <nav>
-        <div class="navbar-menu">
-          <div id="side-menu" class="side-nav">
-            <img
-              aria-hidden="true"
-              src="images/logo.png"
-              alt="compnay logo"
-              height="80"
-            />
-            <ul id="on-top" class="navbar-links">
-              <li class="nav-li">
-                <a class="active-menu" href="index.html">Home</a>
-              </li>
-              <li class="nav-li">
-                <a href="index.html#about-diamond">About</a>
-              </li>
-              <li class="nav-li"><a href="index.html#services">Services</a></li>
-              <li class="nav-li">
-                <a href="html/portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-li">
-                <a href="html/testimonials.html">Testimonials</a>
-              </li>
-              <li class="nav-li"><a href="html/contact.html">Contact</a></li>
-            </ul>
+          <div class="navbar-menu">
+              <div id="side-menu" class=" side-nav">
+                  <a class='logo' href='/'><img aria-hidden="true" src="https://d33wubrfki0l68.cloudfront.net/b5ebe4f030c03c41b14aa424a92f9e02fb8345fb/fb380/images/logo-white-red-bolt.svg" alt="compnay logo" width="319" height="78" decoding="async"></a>
+                  <ul id="on-top" class="navbar-links">
+                      <li class="nav-li hover-link"><a class='active-menu' href='/'>Home</a></li>
+                      <li class="nav-li hover-link"><a href='/html/about'>About</a></li>
+                      <li class="nav-li hover-link"><a href='/html/services'>Services</a></li>
+                      <!-- <li class="nav-li"><a href="html/portfolio.html">Portfolio</a></li>-->
+                      <li class="nav-li hover-link"><a href='/html/testimonials'>Testimonials</a></li>
+                      <li class="nav-li"><a class='contact-button' href='/html/contact'>Contact</a></li>
+                  </ul>
+              </div>
           </div>
-        </div>
       </nav>
-    </header>
-
-    <main id="main">
+  </header>
+      
+  <main id="main">
       <!-- ============================================ -->
       <!--                    LANDING                   -->
       <!-- ============================================ -->
@@ -153,13 +172,7 @@
       <!-- ============================================ -->
 
       <section id="cards">
-        <img
-          loading="lazy"
-          aria-hidden="true"
-          src=""
-          alt=""
-          class="triangles"
-        />
+        <svg class="triangles" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 565.31 462.86"><defs><style>.cls-1{fill:#eb4d67;}.cls-2{fill:#E30126;}.cls-3{fill:#b6011e;}.cls-4{fill:#f18093;}.cls-5{fill:#f9ccd4;}.cls-6{fill:#f7b3be;}</style></defs><g id="Layer_2" data-name="Layer 2"><g   data-name="Layer 2"><polygon class="cls-1" points="0 0 53.84 0 26.92 46.29 0 0"/><polygon class="cls-2" points="53.84 0 107.68 0 80.76 46.29 53.84 0"/><polygon class="cls-1" points="107.68 0 161.52 0 134.6 46.29 107.68 0"/><polygon class="cls-3" points="215.36 0 269.2 0 242.28 46.29 215.36 0"/><polygon class="cls-1" points="269.2 0 323.04 0 296.12 46.29 269.2 0"/><polygon class="cls-4" points="376.88 0 430.71 0 403.8 46.29 376.88 0"/><polygon class="cls-1" points="188.44 46.29 242.28 46.29 215.36 0 188.44 46.29"/><polygon class="cls-5" points="457.63 46.29 511.47 46.29 484.55 0 457.63 46.29"/><polygon class="cls-1" points="0 92.57 53.84 92.57 26.92 46.29 0 92.57"/><polygon class="cls-2" points="107.68 92.57 161.52 92.57 134.6 46.29 107.68 92.57"/><polygon class="cls-2" points="161.52 92.57 215.36 92.57 188.44 46.29 161.52 92.57"/><polygon class="cls-4" points="323.04 92.57 376.88 92.57 349.96 46.29 323.04 92.57"/><polygon class="cls-5" points="430.71 92.57 484.55 92.57 457.63 46.29 430.71 92.57"/><polygon class="cls-4" points="26.92 46.29 0 92.57 0 46.29 26.92 46.29"/><polygon class="cls-2" points="26.92 46.29 80.76 46.29 53.84 92.57 26.92 46.29"/><polygon class="cls-3" points="80.76 46.29 134.6 46.29 107.68 92.57 80.76 46.29"/><polygon class="cls-1" points="134.6 46.29 188.44 46.29 161.52 92.57 134.6 46.29"/><polygon class="cls-3" points="188.44 46.29 242.28 46.29 215.36 92.57 188.44 46.29"/><polygon class="cls-2" points="242.28 46.29 296.12 46.29 269.2 92.57 242.28 46.29"/><polygon class="cls-6" points="349.96 46.29 403.8 46.29 376.88 92.57 349.96 46.29"/><polygon class="cls-5" points="511.47 46.29 565.31 46.29 538.39 92.57 511.47 46.29"/><polygon class="cls-4" points="0 92.57 53.84 92.57 26.92 138.86 0 92.57"/><polygon class="cls-1" points="107.68 92.57 161.52 92.57 134.6 138.86 107.68 92.57"/><polygon class="cls-1" points="161.52 92.57 215.36 92.57 188.44 138.86 161.52 92.57"/><polygon class="cls-4" points="269.2 92.57 323.04 92.57 296.12 138.86 269.2 92.57"/><polygon class="cls-1" points="26.92 138.86 80.76 138.86 53.84 92.57 26.92 138.86"/><polygon class="cls-4" points="134.6 138.86 188.44 138.86 161.52 92.57 134.6 138.86"/><polygon class="cls-3" points="0 185.14 53.84 185.14 26.92 138.86 0 185.14"/><polygon class="cls-2" points="26.92 138.86 0 185.14 0 138.86 26.92 138.86"/><polygon class="cls-2" points="26.92 138.86 80.76 138.86 53.84 185.14 26.92 138.86"/><polygon class="cls-2" points="134.6 138.86 188.44 138.86 161.52 185.14 134.6 138.86"/><polygon class="cls-4" points="188.44 138.86 242.28 138.86 215.36 185.14 188.44 138.86"/><polygon class="cls-2" points="242.28 138.86 296.12 138.86 269.2 185.14 242.28 138.86"/><polygon class="cls-4" points="403.8 138.86 457.63 138.86 430.71 185.14 403.8 138.86"/><polygon class="cls-1" points="0 185.14 53.84 185.14 26.92 231.43 0 185.14"/><polygon class="cls-3" points="107.68 185.14 161.52 185.14 134.6 231.43 107.68 185.14"/><polygon class="cls-4" points="269.2 185.14 323.04 185.14 296.12 231.43 269.2 185.14"/><polygon class="cls-2" points="80.76 231.43 134.6 231.43 107.68 185.14 80.76 231.43"/><polygon class="cls-4" points="0 277.71 53.84 277.71 26.92 231.43 0 277.71"/><polygon class="cls-5" points="53.84 277.71 107.68 277.71 80.76 231.43 53.84 277.71"/><polygon class="cls-1" points="26.92 231.43 0 277.71 0 231.43 26.92 231.43"/><polygon class="cls-4" points="26.92 231.43 80.76 231.43 53.84 277.71 26.92 231.43"/><polygon class="cls-2" points="134.6 231.43 188.44 231.43 161.52 277.71 134.6 231.43"/><polygon class="cls-3" points="0 277.71 53.84 277.71 26.92 324 0 277.71"/><polygon class="cls-4" points="53.84 277.71 107.68 277.71 80.76 324 53.84 277.71"/><polygon class="cls-5" points="215.36 277.71 269.2 277.71 242.28 324 215.36 277.71"/><polygon class="cls-2" points="26.92 324 80.76 324 53.84 277.71 26.92 324"/><polygon class="cls-1" points="0 370.29 53.84 370.29 26.92 416.57 0 370.29"/><polygon class="cls-4" points="134.6 416.57 188.44 416.57 161.52 370.29 134.6 416.57"/><polygon class="cls-5" points="26.92 416.57 80.76 416.57 53.84 462.86 26.92 416.57"/></g></g></svg>
         <div class="container">
           <div class="card">
             <img
@@ -235,62 +248,37 @@
       </section>
 
       <!-- ============================================ -->
-      <!--                   FAQ                        -->
-      <!-- ============================================ -->
-
-      <section id="faq">
-        <div class="container">
-          <div class="faq-item item-1">
-            <h3>What cities do you operate in? <span>+</span></h3>
-            <div class="faq-extended-content">
-              <p>
-                Currently, we are in McAllen and neighboring cities here in the
-                Valley. However, we are not limited to these locations so please
-                contact us to find out about how we can help you in your
-                location.
-              </p>
-            </div>
-          </div>
-          <div class="faq-item item-2">
-            <h3>Question 2 <span>+</span></h3>
-            <div class="faq-extended-content">
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
-                autem possimus sapiente odio veniam rerum corporis voluptatem
-                aspernatur error labore?
-              </p>
-            </div>
-          </div>
-          <div class="faq-item item-3">
-            <h3>Question 3 <span>+</span></h3>
-            <div class="faq-extended-content">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                obcaecati saepe recusandae at, dolorum reiciendis enim ab eius
-                veniam velit! Perferendis qui doloremque reprehenderit.
-                Provident odio cupiditate corporis doloremque quas?
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ============================================ -->
       <!--                   About                      -->
       <!-- ============================================ -->
 
-      <section id="about">
+      <section id="about" class="standard">
         <div class="container">
-          <img
-            loading="lazy"
-            class="lights"
-            src="https://d33wubrfki0l68.cloudfront.net/9797b2907f059384d07b459c39dfce2e47911b0d/936c3/images/lights-hd.png"
-            alt="hanging lights"
-            width="150"
-            height="420"
-          />
-          <div class="content">
-            <span class="sub">10+ Years of Experience</span>
+            <div class="light-group lights">
+                <!--Mobile Images-->
+                <img loading="lazy" class="light mobile" src="https://d33wubrfki0l68.cloudfront.net/d813a30b75e06380bdabfb50aa9158116ee2a41b/612dd/images/lights-hd-mobile.png" alt="hanging lights" width="150" height="420" decoding="async">
+                <img id="mobile-dark" loading="lazy" class="dark mobile" src="https://d33wubrfki0l68.cloudfront.net/814a20a9412bf59b902aa72b12167b0b298cbd92/618bf/images/lights-dark-mode-mobile2.png" alt="hanging lights" width="150" height="267" decoding="async">
+
+                <!--Desktop Images-->
+                <img id="desk1" loading="lazy" class="light desktop" src="https://d33wubrfki0l68.cloudfront.net/9797b2907f059384d07b459c39dfce2e47911b0d/936c3/images/lights-hd.png" alt="hanging lights" width="150" height="420" decoding="async">
+                <img id="desk2" loading="lazy" class="dark desktop" src="https://d33wubrfki0l68.cloudfront.net/a0874b2cbaf39ee91ab3e5d3afe464a1de28c829/4d33e/images/lights-dark-mode.png" alt="hanging lights" width="150" height="420" decoding="async">
+            </div>
+            <div class="content">
+                <span class="sub">10+ Years of Experience</span>
+                <div class="neon exp">
+                    <span class="aria-tag">10+ Years of Experience</span>
+                    <span aria-hidden="true">10</span>
+                    <span class="margin-right" aria-hidden="true">+</span>
+
+                    <span aria-hidden="true">Year</span>
+                    <span aria-hidden="true">s</span>
+                    
+                    <span aria-hidden="true">of</span>
+
+                    <span aria-hidden="true">Expe</span>
+                    <span aria-hidden="true">ri</span>
+                    <span aria-hidden="true">e</span>
+                    <span aria-hidden="true">nce</span>
+                </div>
             <h2>Serving McAllen and Neighboring Cities</h2>
             <p>
               My name is Alvaro Mendez and I've been an electrician serving the
@@ -317,17 +305,11 @@
               class="button-solid"
               href=""
             >
-              Learn More
+              Call Now
             </a>
           </div>
         </div>
       </section>
-
-      <!-- ============================================ -->
-      <!--                   About                      -->
-      <!-- ============================================ -->
-
-      <section id="about"></section>
 
       <!-- ============================================ -->
       <!--                Services                      -->
